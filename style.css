@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
-body{
-    background-color: cadetblue;
-    
 
-}
 h1 {
     
     text-align: center;
@@ -14,4 +9,29 @@ p {
     text-align: center;
     font-size: 50px;
     font-family: 'Alex Brush', cursive;
+}
+.container {
+    text-align: center;
+    font-size: 50px;
+}
+* {
+    background-color: cadetblue;
+}
+.btn-1{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    border-color: cadetblue;
+    text-shadow: none;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    color: white;
+}
+.btn-1:hover{
+    box-shadow: inset 100px 0 0 0 #f9e506;
+    cursor: pointer;
+    color: black;
+
 }
