@@ -12,3 +12,6 @@ function updateCountdown() {
     countdownEl.innerHTML = `${minute}:${seconds} `;
     time--;
 }
+onEvent("btn-1", "click", function(){
+    time = 600;
+});

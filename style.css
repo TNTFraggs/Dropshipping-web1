@@ -1,4 +1,6 @@
-
+body {
+    
+}
 h1 {
     
     text-align: center;
@@ -24,14 +26,15 @@ p {
     border-color: cadetblue;
     text-shadow: none;
     box-shadow: inset 0 0 0 0 #f9e506;
-    transition: ease-out 0.3s;
+
+    transition: ease-out 0.7s;
     font-size: 2rem;
     outline: none;
     color: white;
 }
 .btn-1:hover{
-    box-shadow: inset 100px 0 0 0 #f9e506;
+    box-shadow: inset 100px 0px 100px 0px #f9e506;
     cursor: pointer;
     color: black;
-
+    
 }
