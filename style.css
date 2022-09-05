@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+body{
+    background-color: cadetblue;
+    
+
+}
+h1 {
+    
+    text-align: center;
+    color : white;
+    font-size: 60px;
+}
+p {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Alex Brush', cursive;
+}
